@@ -7,3 +7,8 @@ export interface CustomButtonProps {
     className?: string;
     btnType?: 'button' | 'submit';
 }
+
+export interface SearchManufacturerProps {
+    manufacturer : string;
+    setManufacturer: (manufacturer : string) => void;
+}
